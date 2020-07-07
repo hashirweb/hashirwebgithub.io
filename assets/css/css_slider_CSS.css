@@ -1,0 +1,856 @@
+/*------------- BANNER-SECTION -------------*/
+
+.csslider>ul>li { 
+}
+
+.csslider>ul>li:first-child {
+    background: url(../images/slider-img/2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.csslider>ul>li:first-child {
+    background-size: cover;
+}
+
+.csslider>ul>li:nth-child(2) {
+    background: url(../images/slider-img/1.jpg) no-repeat top;
+    background-size: cover;
+}
+
+.csslider>ul>li:last-child {
+    background: url(../images/slider3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.w3ls_banner_txt {
+    margin-top: 17vw;
+    max-width: 560px;
+}
+
+.w3ls_banner_txt p {
+    color: #eee;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+h3.w3ls_pvt-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 5em;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+
+.w3ls_banner_txt h5 {
+    font-weight: 400;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.button-style {
+    padding: 12px 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 2px solid #fc4242;
+    background: #fc4242;
+    opacity:0.7;
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.button-style:hover{
+    border: 2px solid #fc4242;
+    background: #fc4242;
+    color: #fff;
+    opacity:1;
+}
+
+.csslider>.navigation label {
+    background-color: var(--brand-color);
+    padding: 5px;
+}
+
+.w3ls_banner_txt H2 {
+    color: #fff;
+    font: bold 3rem/2rem var(--poppins);
+    background-color:  var(--brand-color);
+    display: inline-block;
+    padding: 1.2rem 1.6rem;
+    letter-spacing: 0rem;
+}
+
+.w3ls_banner_txt H3 {
+    display: inline-block;
+    background-color: #101d29;
+    font: bold 3rem/2rem var(--poppins);
+    padding: 1.2rem 1.6rem;
+    white-space: nowrap;
+    color: white;
+}
+
+.w3ls_banner_txt p {
+    color: #2d2b2b;
+    width: 85%;
+    font: 500 1.2rem/1.7rem var(--roboto);
+    margin-top: 0.9rem;
+}
+
+.w3ls_banner_txt .button-style {
+    background-color: var(--brand-color);
+    border: none;
+    border-radius: 0.4rem;
+    opacity: 1;
+    margin-top: 0.9rem;
+    transition: 0.4s ease-in-out all;
+    padding: 0.8rem 1.7rem;
+    font: bold 1rem/1rem var(--roboto);
+    color: white;
+}
+
+.w3ls_banner_txt .button-style:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--brand-sub-color);
+    border: 1.7px solid var(--brand-color);
+    color: white;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.csslider > .arrows label {
+        box-shadow: inset 2px -2px 0 1px var(--brand-color);
+}
+
+.csslider > .arrows label:hover {
+    box-shadow: inset 5px -2px 0 9px #363758;
+}
+
+.csslider>.navigation label{
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.csslider > .arrows label::before {
+    content: '';
+    position: absolute;
+    top: -73%;
+    left: -95%;
+    height: 270%;
+    width: 270%;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.36);
+}
+
+
+
+/*--- banner-media-queries ---*/
+
+@media(max-width: 1680px) {}
+
+@media(max-width: 1600px) {}
+
+@media(max-width: 1440px) {}
+
+@media(max-width: 1366px) {
+    .csslider>ul>li {
+        min-height: 740px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 270px;
+    }
+}
+
+@media(max-width: 1280px) {
+    h3.w3ls_pvt-title {
+        font-size: 4.5em;
+    }
+
+    .middle-w3l p {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 1080px) {
+    .csslider>ul>li {
+        min-height: 630px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 3.8em;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 16px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 20vw;
+    }
+
+    .middle-w3l p span {
+        font-size: 30px;
+    }
+
+    .middle-w3l p {
+        font-size: 32px;
+    }
+
+    .testi-bg {
+        min-height: 400px;
+    }
+
+    a.btn.button-style-2 {
+        width: 46%;
+    }
+
+    .agileinfo_footer_grid ul li {
+        font-size: 13px;
+    }
+
+    .logo-2 a {
+        font-size: 36px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 230px;
+    }
+    h3.title {
+        font-size: 36px;
+    }
+    p.title-sub-2 {
+        font-size: 14px;
+    }
+    p.counter {
+        font-size: 2.5em;
+    }
+    .team-text h4 {
+        font-size: 24px;
+        margin: .8em 0 .5em;
+    }
+}
+
+@media(max-width: 1050px) {
+    .agileinfo_footer_grid h4 {
+        font-size: 22px;
+    }
+
+    .w3agile_footer_copy p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 991px) {
+    h3.w3ls_pvt-title {
+        font-size: 3.6em;
+    }
+
+    .button-style {
+        font-size: 14px;
+    }
+
+    h3.title {
+        font-size: 38px;
+    }
+
+    p.title-sub {
+        font-size: 16px;
+    }
+
+    .about-grid-main {
+        padding: 2em;
+    }
+
+    .about-grid-main h4 {
+        font-size: 25px;
+    }
+
+    .grids-w3ls-right-2 h4 {
+        font-size: 24px;
+    }
+
+    .right-models .card-body span {
+        font-size: 40px;
+    }
+
+    h5.card-title.mt-3 {
+        font-size: 17px;
+    }
+
+    a.btn.button-style-2 {
+        width: 60%;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 900px) {
+    .csslider>ul>li {
+        min-height: 580px;
+    }
+}
+
+@media(max-width: 800px) {
+    h3.w3ls_pvt-title {
+        font-size: 3.5em;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 24vw;
+    }
+
+    h3.title {
+        font-size: 36px;
+    }
+
+    h3.tittle-w3layouts {
+        font-size: 34px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 200px;
+    }
+}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 736px) {
+    .grids-w3ls-right-2 {
+        background: rgba(255, 255, 255, 0.85);
+        padding: 2em 3em;
+    }
+
+    .abt-block {
+        margin-top: 4.5em;
+    }
+
+    .abt-block span {
+        font-size: 1.8em;
+    }
+
+    .serv_abs {
+        width: 80px;
+        height: 80px;
+    }
+
+    .middle-w3l p {
+        font-size: 28px;
+    }
+
+    a.btn.button-style-2 {
+        width: 26%;
+    }
+}
+
+@media(max-width: 667px) {
+    .csslider>ul>li {
+        min-height: 540px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 15px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 3.2em;
+    }
+
+    .button-style {
+        font-size: 13px;
+        padding: 11px 22px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 26vw;
+    }
+
+    .testi-bg {
+        min-height: 360px;
+    }
+    p.counter {
+        font-size: 2.3em;
+    }
+}
+
+@media(max-width: 640px) {}
+
+@media(max-width: 600px) {
+    h3.w3ls_pvt-title {
+        font-size: 3em;
+    }
+
+    .csslider>ul>li {
+        min-height: 510px;
+    }
+
+    .agile-wthree-works {
+        background-position: left top;
+    }
+}
+
+@media(max-width: 568px) {
+    .csslider>ul>li {
+        min-height: 480px;
+    }
+
+    #logo a {
+        font-size: 36px;
+    }
+
+    .about-grid-main {
+        padding: 3em;
+    }
+
+    h3.title {
+        font-size: 34px;
+    }
+
+    p.title-sub {
+        font-size: 15px;
+    }
+
+    .grids-w3ls-right-2 {
+        padding: 2em;
+        margin: 0 1em;
+    }
+
+    .testi-bg {
+        min-height: 330px;
+    }
+
+    .logo-2 a {
+        font-size: 32px;
+    }
+
+    .agileinfo_footer_grid h4 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 480px) {
+    h3.w3ls_pvt-title {
+        font-size: 2.6em;
+    }
+
+    #logo a {
+        font-size: 34px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 14px;
+    }
+
+    .csslider>ul>li {
+        min-height: 440px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 30vw;
+    }
+
+    .grids-w3ls-right-2 h4 {
+        font-size: 20px;
+    }
+
+    .middle-w3l p {
+        font-size: 23px;
+    }
+
+    .middle-w3l p span {
+        font-size: 24px;
+    }
+
+    .testi-bg {
+        min-height: 270px;
+    }
+
+    a.btn.button-style-2 {
+        width: 30%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .newsletter button {
+        width: 26%;
+    }
+
+    .newsletter input[type="email"] {
+        width: 70%;
+    }
+
+    .w3agile_footer_copy p {
+        font-size: 13px;
+    }
+
+    h3.tittle-w3layouts {
+        font-size: 30px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 180px;
+    }
+    .popup {
+        padding: 2.5em 2em 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+}
+
+@media(max-width: 440px) {
+    .about-grid-main {
+        padding: 2em;
+    }
+
+    a.button-w3ls {
+        font-size: 15px;
+    }
+
+    .middle-w3l p {
+        font-size: 21px;
+    }
+
+    .middle-w3l p span {
+        font-size: 22px;
+    }
+
+    .abt-block {
+        margin-top: 3.5em;
+    }
+
+    .logo-2 a {
+        font-size: 30px;
+    }
+    .contact-form .form-control {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 414px) {
+    .csslider>ul>li {
+        min-height: 420px;
+    }
+
+    h3.title {
+        font-size: 32px;
+    }
+
+    p.title-sub {
+        font-size: 14px;
+    }
+
+    .grids-w3ls-right-2 h4 {
+        font-size: 19px;
+    }
+
+    .serv_abs {
+        top: -35px;
+        left: 30px;
+    }
+
+    .testi-bg {
+        min-height: 240px;
+    }
+
+    a.btn.button-style-2 {
+        width: 36%;
+    }
+
+    .newsletter button,
+    .newsletter input[type="email"] {
+        font-size: 14px;
+    }
+
+    h3.tittle-w3layouts {
+        font-size: 28px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 150px;
+    }
+}
+
+@media(max-width: 384px) {
+    .w3ls_banner_txt p {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 2.4em;
+    }
+
+    .button-style {
+        padding: 11px 20px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 36vw;
+    }
+
+    .newsletter input[type="email"] {
+        width: 68%;
+    }
+
+    .newsletter button {
+        width: 30%;
+    }
+    p.title-sub-2 {
+        font-size: 13px;
+    }
+    .caption ul li a i {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+    }
+    .map iframe {
+        min-height: 250px;
+    }
+}
+
+@media(max-width: 375px) {
+    #logo a {
+        font-size: 32px;
+    }
+
+    .csslider>ul>li {
+        min-height: 410px;
+    }
+
+    .testi-bg {
+        min-height: 210px;
+    }
+
+    .agileinfo_footer_grid1 {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+
+    ul.author li span {
+        font-size: 18px;
+    }
+
+    ul.author li {
+        font-size: 13px;
+    }
+    .team-grid {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .team-grid:nth-child(2){
+        margin-top:2em;
+    }
+}
+
+@media(max-width: 320px) {
+    #logo a {
+        font-size: 30px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 12px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 2.2em;
+    }
+
+    .button-style {
+        padding: 11px 16px;
+        font-size: 12px;
+    }
+
+    .csslider>ul>li {
+        min-height: 380px;
+    }
+
+    h3.title {
+        font-size: 30px;
+    }
+
+    .about-grid-main h4 {
+        font-size: 24px;
+    }
+
+    .grids-w3ls-right-2 h4 {
+        font-size: 18px;
+    }
+
+    .grids-w3ls-right-2 {
+        padding: 1.5em;
+        margin: 0 .5em;
+    }
+
+    .right-models .card-body span {
+        font-size: 36px;
+    }
+
+    h5.card-title.mt-3 {
+        font-size: 15px;
+    }
+
+    a.btn.button-style-2 {
+        width: 45%;
+    }
+
+    .newsletter input[type="email"],
+    .newsletter button {
+        padding: 12px;
+        width: 100%;
+    }
+
+    .newsletter button {
+        margin-top: 1em;
+    }
+
+    .w3agile_footer_copy p {
+        letter-spacing: 1px;
+    }
+
+    h3.tittle-w3layouts {
+        font-size: 26px;
+    }
+
+    .banner_w3lspvt-2 {
+        min-height: 120px;
+    }
+    h3.title {
+        font-size: 28px;
+    }
+}
+
+/* //responsive */
+
+@media(max-width: 700px) {
+	
+	.w3ls_banner_txt H2 {
+		color: #fff;
+		font: bold 2.2rem/2rem var(--poppins);
+		background-color:  var(--brand-sub-color);
+		display: inline-block;
+		padding: 1rem 1.4rem;
+		letter-spacing: 0rem;
+	}
+
+	.w3ls_banner_txt H3 {
+		display: inline-block;
+		background-color: var(--brand-color);
+		font: bold 2.2rem/2rem var(--poppins);
+		padding: 1rem 1.4rem;
+	}
+
+	.w3ls_banner_txt p {
+		color: #2d2b2b;
+		width: 65%;
+		font: 500 1rem/1.7rem var(--roboto);
+		margin-top: 0.7rem;
+	}
+
+	.w3ls_banner_txt .button-style {
+		background-color: var(--brand-color);
+		border: none;
+		border-radius: 16.8rem;
+		opacity: 1;
+		margin-top: 0.6rem;
+		transition: 0.4s ease-in-out all;
+		padding : 10px 22px;
+	}
+
+	.w3ls_banner_txt {
+	    margin-top: 16vw;
+	    max-width: 560px;
+	}
+}
+
+@media(max-width: 486px) {
+	
+	.w3ls_banner_txt H2 {
+		color: #fff;
+		font: bold 1.8rem/2rem var(--poppins);
+		background-color:  var(--brand-sub-color);
+		display: inline-block;
+		padding: 0.6rem 1rem;
+		letter-spacing: 0rem;
+	}
+
+	.w3ls_banner_txt H3 {
+		display: inline-block;
+		background-color: var(--brand-color);
+		font: bold 1.8rem/2rem var(--poppins);
+		padding: 0.5rem 1rem;
+	}
+
+	.w3ls_banner_txt p {
+		color: #2d2b2b;
+		width: 65%;
+		font: 500 0.9rem/1.4rem var(--roboto);
+		margin-top: 0.7rem;
+	}
+
+	.w3ls_banner_txt .button-style {
+		background-color: var(--brand-color);
+		border: none;
+		border-radius: 16.8rem;
+		opacity: 1;
+		margin-top: 0.6rem;
+		transition: 0.4s ease-in-out all;
+		padding : 7px 19px;
+
+	}
+
+	.w3ls_banner_txt {
+	    margin-top: 19vw;
+	    max-width: 560px;
+	}
+}
+
+@media(max-width: 365px) {
+	.w3ls_banner_txt H2 {
+		color: #fff;
+		font: bold 1.4rem/2rem var(--poppins);
+		background-color:  var(--brand-sub-color);
+		display: inline-block;
+		padding: 0.2rem 0.6rem;
+		letter-spacing: 0rem;
+	}
+
+	.w3ls_banner_txt H3 {
+		display: inline-block;
+		background-color: var(--brand-color);
+		font: bold 1.4rem/2rem var(--poppins);
+		padding: 0.1rem 0.6rem;
+	}
+
+	.w3ls_banner_txt p {
+		color: #2d2b2b;
+		width: 75%;
+		font: 500 0.9rem/1.3rem var(--roboto);
+		margin-top: 0.7rem;
+	}
+
+	.w3ls_banner_txt .button-style {
+		background-color: var(--brand-color);
+		border: none;
+		border-radius: 16.8rem;
+		opacity: 1;
+		margin-top: 0.6rem;
+		transition: 0.4s ease-in-out all;
+		padding : 7px 14px;
+		font-size: 0.7rem
+
+	}
+
+	.w3ls_banner_txt {
+	    margin-top: 22vw;
+	    max-width: 560px;
+	}
+}
